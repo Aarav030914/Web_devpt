@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html forms</title>
+    
+</head>
+<body>
+<h1>Forms Demo</h1>
+<form action="/search/">
+    <div>
+        <lable for="username">Enter your username</lable>
+        <input type="text" placeholder="username" id="username" name="username" required>
+
+    </div>
+
+    <div>
+        <lable for="I am human">I am human</lable>
+        <input type="checkbox" id="I am human" name="human">
+
+    </div>
+
+    <input type="email" placeholder="email">
+    <input type="password" placeholder="password" name="password">
+    <input type="date" name="Date">
+    <input type="color" name="Color">
+
+
+    <button>Submit</button>
+    <input type="submit" value="Click me">
+
+</form>
+<hr>
+<form action="https://www.google.com/search">
+    <input type="text" name="q">
+    <button>Search google</button>
+    <h4>Agreement</h4>
+    <label id="I agree">I agree to everything</label>
+    <input type="checkbox" name="I agree" id="I agree">
+</form>
+<hr>
+<div>
+    <form action="/select">
+        <lable for="Gender">Select your gender</lable>
+        <select id="Gender" name="gender">
+
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+
+        </select>
+        <input type="submit" name="Submit">
+        <p>
+            <label for="Cheese">Amount of cheese(in grams)</label>
+            <input type="range" id="Cheese" name="Cheese_level" min="1" max="20">
+            <div>
+            <lable for="Comments">Any special requests?</lable><br>
+            <textarea id="Comments" maxlength="1000"></textarea>
+            </div>
+            
+
+        </p>
+    </form>
+</div>
+
+</body>
+
+</html>
