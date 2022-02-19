@@ -1,0 +1,35 @@
+#Inputs{
+    border-radius: 20px;
+    padding-left: 1.5%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-right: 1%;
+    background-color: #343a40;
+    width: 25%;
+    display: grid;
+}
+
+#Inputs > *{
+    border-width: 0;
+    color: white;
+    padding: 2%;
+    margin: 2%;
+    border-radius: 10px;
+    width: 70%;
+}
+#heading2{
+    width: 100%;
+    font-size:80%;
+}    
+
+body{
+    display: grid;
+    background-color: #001219;
+}
+#submit_button{
+    background-color: #00b4d8;
+}
+.inputs{
+    background-color: #012a4a;
+}
+
